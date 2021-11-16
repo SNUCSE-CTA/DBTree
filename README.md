@@ -60,21 +60,21 @@ Given an integer `hi`, `key_gen_random` generates `Random` keys, each byte of wh
 `workload_alphanumeric_load.dat` is the load file for `Alphanumeric` keys in the dynamic scenario.
 You can unzip the file using the following command.
 ```bash
-cat workload_alphanumeric_load.dat.tar.bz.* > workload_alphanumeric_load.dat.tar.bz && tar -xvjf workload_alphanumeric_load.dat.tar.bz
+cat workload_alphanumeric_load/* > workload_alphanumeric_load.dat.tar.bz && tar -xvjf workload_alphanumeric_load.dat.tar.bz
 ```
 
 ### workload_alphanumeric_mod
 `workload_alphanumeric_mod.dat` is the insertion/deletion file for `Alphanumeric` keys in the dynamic scenario.
 You can unzip the file using the following command.
 ```bash
-cat workload_alphanumeric_mod.dat.tar.bz.* > workload_alphanumeric_mod.dat.tar.bz && tar -xvjf workload_alphanumeric_mod.dat.tar.bz
+cat workload_alphanumeric_mod/* > workload_alphanumeric_mod.dat.tar.bz && tar -xvjf workload_alphanumeric_mod.dat.tar.bz
 ```
 
 ### workload_alphanumeric_pointsearch
 `workload_alphanumeric_pointsearch` contains search queries for `Alphanumeric` keys.
 You can unzip the file using the following command.
 ```bash
-cat workload_alphanumeric_pointsearch.dat.tar.bz.* > workload_alphanumeric_pointsearch.dat.tar.bz && tar -xvjf workload_alphanumeric_pointsearch.dat.tar.bz
+cat workload_alphanumeric_pointsearch/* > workload_alphanumeric_pointsearch.dat.tar.bz && tar -xvjf workload_alphanumeric_pointsearch.dat.tar.bz
 ```
 
 ### dynamic.sh
