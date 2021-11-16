@@ -81,4 +81,4 @@ cat workload_alphanumeric_pointsearch/* > workload_alphanumeric_pointsearch.dat.
 `dynamic.sh` is a script used for experiments in the dynamic scenario.
 
 ### DB+ tree
-The code of DB+ tree cannot be made public due to company policies.
+The code of DB+ tree cannot be made public due to company (SAP) policies.
